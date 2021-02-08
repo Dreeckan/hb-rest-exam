@@ -162,7 +162,7 @@ Pour toutes ces questions, seule une réponse est vraie.
 - [x] Une application qui demande des données au serveur
 - [ ] Un programme qui répond aux requêtes
 - [ ] Une base de données
-- [ ] Un programme qui va afficher des informations à l'utilisateur
+- [x] Un programme qui va afficher des informations à l'utilisateur
 - [x] Un composant indépendant utilisant les données renvoyées par le serveur
 
 #### 5.2. Dans un système sans état, le serveur se souvient-il des requêtes des clients ? (une seule réponse)

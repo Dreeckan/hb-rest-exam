@@ -183,14 +183,14 @@ Pour toutes ces questions, seule une réponse est vraie.
 #### 5.4. À quoi sert la mise en cache des réponses ? (plusieurs réponses possibles)
 
 - [x] À diminuer le temps de calcul
-- [x] À ne pas montrer certaines informations au client
-- [ ] À ne pas renvoyer plusieurs fois la même information
+- [ ] À ne pas montrer certaines informations au client
+- [x] À ne pas renvoyer plusieurs fois la même information
 
 #### 5.5. Que permet une interface uniforme ? (plusieurs réponses possibles)
 
 - [x] Client comme serveur savent comment communiquer ensemble
-- [x] Appliquer une modification côté serveur applique automatiquement la même modification sur les clients
-- [ ] Un client écrit en java peut récupérer des informations d'un site codé en PHP
+- [ ] Appliquer une modification côté serveur applique automatiquement la même modification sur les clients
+- [x] Un client écrit en java peut récupérer des informations d'un site codé en PHP
 
 ### 6. Les status HTTP
 
@@ -220,9 +220,9 @@ Pour toutes ces questions, seule une réponse est vraie.
 
 ### 7. Comment se connecter à une API ? (plusieurs réponses possibles)
 
-- [x] Avec un formulaire de connexion sur le serveur
+- [ ] Avec un formulaire de connexion sur le serveur
 - [x] Avec un token API (une chaine de caractères spécifique à un utilisateur)
-- [ ] Avec un identifiant et un mot de passe
+- [x] Avec un identifiant et un mot de passe
 - [ ] Par email
 
 ### 8. Comment (dans l'idéal) connait-on les endpoints et les retours d'une API ? (plusieurs réponses possibles)

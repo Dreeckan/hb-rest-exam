@@ -28,31 +28,30 @@ Pour chacune des questions présentes dans ce test, il vous est précisé si plu
 
 ### 1. Qu'est-ce qu'une API ? (une seule réponse)
 
-- [ ] Un intermédiaire pour communiquer entre une application et une base de données
+- [X] Un intermédiaire pour communiquer entre une application et une base de données
 - [ ] Un protocole pour remplacer HTTP
 - [ ] Une manière de coder en Symfony, expliquant comment ranger les fichiers et différentes normes à utiliser
 
 ### 2. Peut-on faire ceci avec une API ? (plusieurs réponses)
 
-- [ ] Récupérer un tweet de Chris Pratt (acteur américain)
+- [X] Récupérer un tweet de Chris Pratt (acteur américain)
 - [ ] Pirater la NASA
-- [ ] Obtenir les vols disponibles pour un trajet Lyon - Paris
-- [ ] Se connecter grâce à Facebook sur un site autre
+- [X] Obtenir les vols disponibles pour un trajet Lyon - Paris
+- [X] Se connecter grâce à Facebook sur un site autre
 - [ ] Obtenir le mot de passe Facebook d'Emmanuel Macron
-
 ### 3. XML et JSON
 
 #### 3.1. Qu'est-ce que XML ? (une seule réponse)
 
 - [ ] Un langage de programmation orienté objet
-- [ ] Un méta-langage de balisage
+- [X] Un méta-langage de balisage
 - [ ] Un groupe de rock qui a fait fureur dans les années 70
 
 #### 3.1. Qu'est-ce que JSON ? (une seule réponse)
 
 - [ ] Un célèbre auteur de romans policiers
 - [ ] Un langage de programmation orienté objet
-- [ ] Un format de données textuelles
+- [X] Un format de données textuelles
 - [ ] Une extension de javascript, seul moyen d'utiliser AJAX
 
 ### 4. Définitions
@@ -61,12 +60,12 @@ Pour chacune des questions présentes dans ce test, il vous est précisé si plu
 
 - [ ] Un protocole (comme HTTP) de communication entre une ou des applications mobiles et un serveur tiers
 - [ ] Une méthode du protocole HTTP, comme GET, POST ou PATCH, permettant les échanges entre une API et une application
-- [ ] Un style d'architecture logicielle, définissant des contraintes d'interopérabilité entre différents logiciels
+- [X] Un style d'architecture logicielle, définissant des contraintes d'interopérabilité entre différents logiciels
 
 #### 4.2. Quel protocole utilise une API REST (ou RESTful) ? (une seule réponse)
 
 - [ ] REST
-- [ ] HTTP
+- [X] HTTP
 - [ ] PHP
 - [ ] JSON
 
@@ -74,8 +73,8 @@ Pour chacune des questions présentes dans ce test, il vous est précisé si plu
 
 - [ ] REST
 - [ ] JSON
-- [ ] GET
-- [ ] POST
+- [X] GET
+- [X] POST
 - [ ] PHP
 
 #### 4.4. Nommage
@@ -85,7 +84,7 @@ Pour toutes ces questions, seule une réponse est vraie.
 
 ##### 4.4.1. Qu'est-ce que `https://www.anapioficeandfire.com/api/books` ?
 
-- [ ] Une URL
+- [X] Une URL
 - [ ] Un endpoint / une URI
 - [ ] Une collection
 - [ ] Une ressource
@@ -93,7 +92,7 @@ Pour toutes ces questions, seule une réponse est vraie.
 ##### 4.4.2. Dans ce même exemple, qu'est-ce que `/books` ?
 
 - [ ] Une URL
-- [ ] Un endpoint / une URI
+- [X] Un endpoint / une URI
 - [ ] Une collection
 - [ ] Une ressource
 
@@ -119,7 +118,7 @@ Pour toutes ces questions, seule une réponse est vraie.
 
 - [ ] Une URL
 - [ ] Un endpoint / une URI
-- [ ] Une collection
+- [X] Une collection
 - [ ] Une ressource
 
 
@@ -152,43 +151,43 @@ Pour toutes ces questions, seule une réponse est vraie.
 - [ ] Une URL
 - [ ] Un endpoint / une URI
 - [ ] Une collection
-- [ ] Une ressource
+- [X] Une ressource
 
 ### 5. Les grands principes de REST
 
 #### 5.1. Dans une relation client-serveur, qu'est-ce que le client ? (plusieurs réponses possibles)
 
-- [ ] Une application qui demande des données au serveur
+- [X] Une application qui demande des données au serveur
 - [ ] Un programme qui répond aux requêtes
 - [ ] Une base de données
-- [ ] Un programme qui va afficher des informations à l'utilisateur
-- [ ] Un composant indépendant utilisant les données renvoyées par le serveur
+- [X] Un programme qui va afficher des informations à l'utilisateur
+- [X] Un composant indépendant utilisant les données renvoyées par le serveur
 
 #### 5.2. Dans un système sans état, le serveur se souvient-il des requêtes des clients ? (une seule réponse)
 
 - [ ] Oui
-- [ ] Non
+- [X] Non
 
 #### 5.3. Dans un système en couche, le client sait-il directement le contenu de la base de données et son organisation ? (une seule réponse)
 
 - [ ] Oui
-- [ ] Non
+- [X] Non
 
 #### 5.4. Dans un système en couche, le client sait-il s'il communique avec une ou plusieurs API ? (une seule réponse)
 
 - [ ] Oui
-- [ ] Non
+- [X] Non
 
 #### 5.4. À quoi sert la mise en cache des réponses ? (plusieurs réponses possibles)
 
-- [ ] À diminuer le temps de calcul
+- [X] À diminuer le temps de calcul
 - [ ] À ne pas montrer certaines informations au client 
-- [ ] À ne pas renvoyer plusieurs fois la même information
+- [X] À ne pas renvoyer plusieurs fois la même information
 
 #### 5.5. Que permet une interface uniforme ? (plusieurs réponses possibles)
 
-- [ ] Client comme serveur savent comment communiquer ensemble
-- [ ] Appliquer une modification côté serveur applique automatiquement la même modification sur les clients
+- [X] Client comme serveur savent comment communiquer ensemble
+- [X] Appliquer une modification côté serveur applique automatiquement la même modification sur les clients
 - [ ] Un client écrit en java peut récupérer des informations d'un site codé en PHP
 
 ### 6. Les status HTTP
@@ -196,14 +195,14 @@ Pour toutes ces questions, seule une réponse est vraie.
 #### 6.1. Que représentent les statuts HTTP entre 200 et 299 ? (une seule réponse)
 
 - [ ] Des erreurs côté serveur
-- [ ] Une opération réalisée avec succès
+- [X] Une opération réalisée avec succès
 - [ ] Un statut interne à HTTP
 - [ ] Une redirection
 - [ ] Des erreurs côté client
 
 #### 6.2. Que représentent les statuts HTTP entre 500 et 599 ? (une seule réponse)
 
-- [ ] Des erreurs côté serveur
+- [X] Des erreurs côté serveur
 - [ ] Une opération réalisée avec succès
 - [ ] Un statut interne à HTTP
 - [ ] Une redirection
@@ -215,18 +214,18 @@ Pour toutes ces questions, seule une réponse est vraie.
 - [ ] Une opération réalisée avec succès
 - [ ] Un statut interne à HTTP
 - [ ] Une redirection
-- [ ] Des erreurs côté client
+- [X] Des erreurs côté client
 
 ### 7. Comment se connecter à une API ? (plusieurs réponses possibles)
 
-- [ ] Avec un formulaire de connexion sur le serveur
-- [ ] Avec un token API (une chaine de caractères spécifique à un utilisateur)
+- [X] Avec un formulaire de connexion sur le serveur
+- [X] Avec un token API (une chaine de caractères spécifique à un utilisateur)
 - [ ] Avec un identifiant et un mot de passe
 - [ ] Par email
 
 ### 8. Comment (dans l'idéal) connait-on les endpoints et les retours d'une API ? (plusieurs réponses possibles)
 
 - [ ] En testant des urls au hasard
-- [ ] En lisant la documentation de l'API
+- [X] En lisant la documentation de l'API
 - [ ] En découvrant différents endpoints dans les retours des requêtes
-- [ ] En utilisant Postman ou un outil du navigateur qui va nous donner toutes les routes possibles
+- [X] En utilisant Postman ou un outil du navigateur qui va nous donner toutes les routes possibles
